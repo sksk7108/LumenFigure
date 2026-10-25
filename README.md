@@ -80,7 +80,7 @@ macOS 没有 CUDA。在 Mac 上会自动使用 CPU。
 ### 1. 获取代码
 
 ```bash
-git clone <这个仓库的地址>
+git clone git@github.com:sksk7108/LumenFigure.git
 cd LumenFigure
 ```
 

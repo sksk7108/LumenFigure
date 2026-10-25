@@ -80,7 +80,7 @@ Run every command from the repository root: the directory that contains `lumenfi
 ### 1. Get the code
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:sksk7108/LumenFigure.git
 cd LumenFigure
 ```
 
