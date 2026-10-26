@@ -47,15 +47,11 @@ python -m lumenfigure -i examples/clip2.mp4 -o examples/clip2_output.mp4 --no-ma
 
 ### Motion-replication example
 
-GitHub plays these three files when you open them. `clip1_result.mp4` is an AI motion replica made from the depth video. Its resolution and frame rate come from the generator, so they differ from the first two files.
-
-| Step | File | Frame | Frame rate | Duration |
-| --- | --- | --- | --- | --- |
-| Source | [examples/clip1.mp4](examples/clip1.mp4) | 1518×622 | 18 fps | 7.2 s, 129 frames |
-| Depth export | [examples/clip1_output.mp4](examples/clip1_output.mp4) | 1080×442 | 18 fps | 7.2 s, 129 frames |
-| AI motion replica | [examples/clip1_result.mp4](examples/clip1_result.mp4) | 864×496 | 30 fps | 6.5 s, 195 frames |
-
-The long side of `clip1_output.mp4` is 1080 because `--max-side 1080` scaled the source before inference.
+| Step | File |
+| --- | --- |
+| Source | https://github.com/user-attachments/assets/32f2900b-d98c-42f3-8b61-84ffa00717ef |
+| Depth export | https://github.com/user-attachments/assets/831a6b16-0816-4093-94cb-816ad31b02ae |
+| AI motion replica | https://github.com/user-attachments/assets/8d1b47c2-f32d-4f58-b0c7-4442ccd6ee47 |
 
 ## Requirements
 
