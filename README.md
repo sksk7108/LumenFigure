@@ -47,15 +47,11 @@ python -m lumenfigure -i examples/clip2.mp4 -o examples/clip2_output.mp4 --no-ma
 
 ### 动作复刻示例
 
-下面三段都能在 GitHub 上点开播放。`clip1_result.mp4` 是拿深度结果去做 AI 动作复刻之后的成片，分辨率和帧率由生成模型决定，和前两段不一致。
-
-| 步骤 | 文件 | 画面 | 帧率 | 时长 |
-| --- | --- | --- | --- | --- |
-| 原视频 | [examples/clip1.mp4](examples/clip1.mp4) | 1518×622 | 18 fps | 7.2 秒，129 帧 |
-| 本项目导出的深度 | [examples/clip1_output.mp4](examples/clip1_output.mp4) | 1080×442 | 18 fps | 7.2 秒，129 帧 |
-| AI 动作复刻结果 | [examples/clip1_result.mp4](examples/clip1_result.mp4) | 864×496 | 30 fps | 6.5 秒，195 帧 |
-
-`clip1_output.mp4` 的长边是 1080，这是 `--max-side 1080` 把原片长边缩小后的尺寸。
+| 步骤 | 文件 |
+| --- | --- | 
+| 原视频 | https://github.com/user-attachments/assets/32f2900b-d98c-42f3-8b61-84ffa00717ef |
+| 本项目导出的深度 | https://github.com/user-attachments/assets/831a6b16-0816-4093-94cb-816ad31b02ae |
+| AI 动作复刻结果 | https://github.com/user-attachments/assets/8d1b47c2-f32d-4f58-b0c7-4442ccd6ee47 |
 
 ## 环境要求
 
